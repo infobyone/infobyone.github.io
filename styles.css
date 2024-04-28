@@ -37,7 +37,7 @@ main {
 .project-card {
     position: relative;
     width: 300px;
-    height: 400px; /* Adjusted height */
+    height: 40px; /* Adjusted height */
     margin: 20px;
     border-radius: 10px;
     overflow: hidden;
