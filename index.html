@@ -5,9 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InfoByone's Projects Portfolio</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
         <div class="header-content">
             <h1>InfoByone's Projects Portfolio</h1>
@@ -25,15 +27,13 @@
         <p>&copy; 2023 InfoByone's Projects Portfolio</p>
     </footer>
 
-    <!-- Include the external JavaScript file -->
     <script src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-<script>
-    AOS.init({
-        once: true, // Initialize animations only once
-        duration: 800 // Animation duration
-    });
-</script>
-
+    <script>
+        AOS.init({
+            duration: 800, // Animation duration
+            once: true // Initialize animations only once
+        });
+    </script>
 </body>
 </html>
