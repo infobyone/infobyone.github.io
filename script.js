@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
             const csvData = await response.text();
             return csvData.trim().split('\n').slice(1).map(row => {
-                const [Name, Description, GitHubLink, ImageURL] = row.split(',');
+                const [Name ,Description ,GitHubLink ,ImageURL] = row.split(',');
                 return { Name: Name.trim(), Description: Description.trim(), GitHubLink: GitHubLink.trim(), ImageURL: ImageURL.trim() };
             });
         } catch (error) {
