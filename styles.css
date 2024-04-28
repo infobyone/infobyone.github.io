@@ -5,10 +5,7 @@ body, h1, h2, p, a {
     font-family: 'Poppins', sans-serif;
 }
 
-body {
-    background-color: #f8f9fa;
-}
-
+/* Header Styles */
 header {
     background-color: #343a40;
     color: #fff;
@@ -24,16 +21,19 @@ header p {
     font-size: 18px;
 }
 
+/* Main Content Styles */
 main {
     padding: 20px;
 }
 
+/* Project Cards Section Styles */
 .projects-section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* Project Card Styles */
 .project-card {
     position: relative;
     width: 300px;
@@ -54,6 +54,7 @@ main {
     height: auto;
 }
 
+/* Project Overlay Styles */
 .project-overlay {
     position: absolute;
     top: 0;
@@ -100,6 +101,7 @@ main {
     background-color: #0056b3;
 }
 
+/* Footer Styles */
 footer {
     background-color: #343a40;
     color: #fff;
