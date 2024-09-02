@@ -42,6 +42,3 @@ async function generateProjectCards() {
 // Call the function to generate project cards
 generateProjectCards();
 
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4719200996923363"
-     crossorigin="anonymous"></script>
